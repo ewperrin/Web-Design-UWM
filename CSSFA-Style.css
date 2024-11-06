@@ -1,0 +1,35 @@
+#tix{
+    width: 50%;
+    height: auto;
+    margin: 1em auto;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+input{
+    margin: 1vh 2vw 1vh 2vw;
+}
+input:focus{
+    box-shadow: 3px 3px 2px #666;
+}
+input[type="email"]{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+input[type="checkbox"]{
+    width: 40px;
+    height: 40px;
+}
+#prices{
+    margin:10px;
+}
+#songs{
+    color:antiquewhite;
+    background: #3F5E5A;
+}
+#submit input[type="submit"] {
+    font-size: 20px;
+    padding: 0.1em 0.2em;
+}

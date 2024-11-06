@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Packer Tickets</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+    <h1>Purchase Packer Tickets</h1>
+    <form method="post" id="tix">
+        <fieldset><legend>Packers Tix</legend>
+            <p>
+                <label for="FN">First Name:</label> <input type="text" size="15" id="FN"/>
+            </p>
+            <p>
+                <label for="LN">Last Name:</label> <input type="text" size="20" required id="LN"/>
+            </p>
+            <p>
+                <label for="PW">Enter Password:</label> <input type="password" maxlength="16" size="16" required id="PW"/>
+            </p>
+            <p>
+                <label for="Email">Email address:</label> <input type="email" required id="Email"/>
+            </p>
+            <p></p>
+                <label for="Phone">Phone number:</label> <input type="tel" required id="Phone"/>
+            </p>
+            <p>
+                <label for="prices">Select Ticket Option</label>
+                <select id="prices">
+                    <option>$50 - $100</option>
+                    <option>$100 - $200</option>
+                    <option>$200+</option>
+                </select>
+            </p>
+            <p>
+                <label for="Fall">Fall</label> <input type="radio" id="Fall" name="season"/>
+                <label for="Winter">Winter</label> <input type="radio" id="Winter" name="season"/>
+            </p>
+            <p>
+                <label for="Updates">Subscribe for updates</label> <input type="checkbox" id="Updates" checked/>
+            </p>
+            <input type="submit" value="Submit"/>
+        </fieldset>
+    </form>
+</body>
+</html>

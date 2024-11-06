@@ -1,0 +1,45 @@
+body{
+    background:#6c9eea;
+}
+h1{
+    font-family: Georgia, serif;
+    text-align: center;
+}
+a:link{
+    font-weight: bold;
+    color:#F2B73D;
+    text-decoration: none;
+}
+a:visited{
+    color:#736956;
+    text-decoration: underline;
+}
+a:hover{
+    color:#8A5C9D;
+    text-decoration: underline;
+}
+a:active{
+    color:#736956;
+    text-decoration: underline;
+}
+a:focus{
+    color:#8A5C9D;
+    text-decoration: underline;
+}
+#intro{
+    width:25vw;
+    height:auto;
+    margin:auto;
+    border-bottom: 1px solid #ccc;
+}
+img{
+    float:left;
+    padding-right: 1vw;
+}
+.clear{
+    clear:both;
+}
+.sub-link a:link{
+    color: green;
+    text-decoration: overline;
+}

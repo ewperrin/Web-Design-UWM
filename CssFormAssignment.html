@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Luke Combs Tickets</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="CSSFA-Style.css"/>
+</head>
+<body>
+    <h1>Purchase Luke Combs Tickets</h1>
+    <form method="post" id="tix">
+        <fieldset><legend>Luke Combs Tix</legend>
+            <p>
+                <label for="FN">First Name:</label> <input type="text" size="15" placeholder="John" id="FN"/>
+            </p>
+            <p>
+                <label for="LN">Last Name:</label> <input type="text" size="20" placeholder="Doe" required id="LN"/>
+            </p>
+            <p>
+                <label for="Email">Email address:</label> <input type="email" placeholder="luke@combs.com" required id="Email"/>
+            </p>
+            <p></p>
+                <label for="Phone">Phone number:</label> <input type="tel" id="Phone" placeholder="123-456-7890"/>
+            </p>
+            <p>
+                <label for="songs">Your pick for the closing song:</label>
+                <select id="songs">
+                    <option>Beer Never Broke My Heart</option>
+                    <option>Two Dozen Roses</option>
+                    <option>Fast Car</option>
+                </select>
+            </p>
+            <p>
+                <label for="Day">Day</label> <input type="radio" id="Day" name="Time"/>
+                <label for="Night">Night</label> <input type="radio" id="Night" name="Time"/>
+            </p>
+            <p>
+                <label for="Updates">Join Bootleggers to keep up to date with Luke Combs?</label> <input type="checkbox" id="Updates" checked/>
+            </p>
+            <label for="story">Want to leave a note for  Luke? Enter it below!</label>
+            <p>
+                <textarea id="story" name="story" rows="5" cols="33"></textarea>
+            </p>
+            <p id="submit">
+            <input type="submit" value="Submit"/>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

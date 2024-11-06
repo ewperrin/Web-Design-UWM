@@ -1,0 +1,118 @@
+body{
+    background: #555;
+}
+#all{
+    width: 80%;
+    height: auto;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height:60px;
+    font-size: 1.25em;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+#head a:link{
+    color: gold;
+    text-decoration: none;
+}
+#head a:visited{
+    color:purple;
+    text-decoration: underline;
+}
+#head a:hover{
+    color:black;
+    text-decoration: underline;
+}
+#head a:active{
+    color:black;
+    text-decoration: underline;
+}
+#head a:focus{
+    color:black;
+    text-decoration: underline;
+}
+#side{
+    width: 20%;
+    height:600px;
+    background: teal;
+    float:left;
+}
+#main{
+    width: 60%;
+    height: 600px;
+    background: antiquewhite;
+    float: left;
+}
+img {
+    max-width: 95%;
+}
+#right{
+    width: 20%;
+    height: 600px;
+    float: right;
+    background:#ccc;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#foot{
+    clear: both;
+    width:auto;
+    height: 50px;
+    background: orange;
+    text-align: center;
+
+}
+/* First breakpoint, go down to two columns */
+@media screen and (min-width: 450px) and (max-width: 800px){
+    body{
+        margin: 0;
+    }
+    #all{
+        width: 95%;
+    }
+    #main{
+        width: 80%;
+        float:right;
+    }
+    #right{
+        clear: both;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+/* Second breakpoint, go down to one column */
+@media screen and (min-width: 50px) and (max-width: 449px){
+    #all {
+        width: 100%;
+        height: auto;
+    }
+    #head{
+        height: 50px;
+        font-size: 1.05em;
+    }
+    #side{
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+    #main{
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+    #right{
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+    #foot{
+        clear: both;
+        height: 30px;
+    }
+}

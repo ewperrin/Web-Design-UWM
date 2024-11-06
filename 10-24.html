@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        /* body{
+            background: url('small-bg.jpg') repeat-x;
+        } */
+        h1{
+            text-align: center;
+            text-shadow: 1px 1px 2px #444;
+            font-family: Helvetica, sans-serif;
+            position:-webkit-sticky;
+            position: sticky;
+            top:0;
+        }
+        .curve{
+            border:2px solid black;
+            width: 150px;
+            height: 150px;
+            background: antiquewhite;
+            border-radius: 15px 15px 0 0;
+            box-shadow: 5px 5px 10px #ccc;
+        }
+        .gradient{
+            width:500px;
+            height: 250px;
+            margin: 1em;
+            background: linear-gradient(90deg, #454343 50%, #7B7979 75%, #B5B2B2 90%, #FFF 100%);
+            border: 1px solid black;
+        }
+        #box{
+            width: 150px;
+            height: 150px;
+            background: orange;
+            position: fixed;
+            top: 0 ;
+            left: 0;
+            z-index: -1;
+        }
+        li{
+            list-style-type: none;
+            display: inline;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Demonstration</h1>
+    <div class="curve">
+    </div>
+    <div class="gradient">Gradient Background</div>
+    <div id="box"></div>
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+</body>
+</html>

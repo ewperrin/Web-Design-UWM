@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 2px #444;
+    font-family: Helvetica, sans-serif;
+    background: grey;
+    position:-webkit-sticky;
+    position: sticky;
+    top:0;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 1em;
+    padding: 14px 16px;
+}
+img{
+    float:left;
+    padding-right: 1vw;
+    border-radius: 15px 15px 15px 15px;
+}
+.menu{
+    font-family: 'Courier New', Courier, monospace;
+    /* I cannot figure out why this isn't applying to the menu */
+}
+.body{
+    text-indent: 50px;
+    border:2px solid black;
+    background: antiquewhite;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 10px #ccc;
+    padding: 5px 5px 5px 5px;
+    line-height:1.2em;
+}
+a:link{
+    font-weight: bold;
+    color:#F2B73D;
+}
+a:visited{
+    color:black;
+    text-decoration: underline;
+}
+a:hover{
+    color:#8A5C9D;
+    text-decoration: underline;
+}
+a:active{
+    color:#736956;
+    text-decoration: underline;
+}
+a:focus{
+    color:#8A5C9D;
+    text-decoration: underline;
+}
+.sub-link a:link{
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+.sub-link a:hover{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+}
